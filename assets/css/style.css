@@ -221,7 +221,7 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/hero-bg.jpg") top center;
+  background: url("../img/img6.jpg") top center;
   background-size: cover;
 }
 
@@ -676,6 +676,12 @@ section {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
+.fixed-size {
+  width: 100%;
+  height: 300px; /* Adjust the height as needed */
+  object-fit: cover; /* Ensures the image covers the area while maintaining aspect ratio */
+}
+
 .services .icon-box {
   margin-bottom: 20px;
 }
@@ -727,6 +733,33 @@ section {
   line-height: 24px;
   font-size: 14px;
 }
+
+
+/*--------------------------------------------------------------
+# videos
+--------------------------------------------------------------*/
+.video-box {
+  margin-bottom: 30px;
+}
+.embed-responsive {
+  position: relative;
+  display: block;
+  width: 100%;
+  padding: 0;
+  overflow: hidden;
+  padding-bottom: 56.25%; /* 16:9 ratio */
+}
+.embed-responsive .embed-responsive-item {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+
 
 /*--------------------------------------------------------------
 # Testimonials

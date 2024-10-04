@@ -132,6 +132,24 @@ h6 {
     margin-left: 0;
   }
 }
+.cv-link {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #182534;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: background-color 0.3s;
+  z-index: 9999; /* Ensure the link is above other elements */
+  pointer-events: auto; /* Make sure the link responds to clicks */
+}
+
+.cv-link:hover {
+  background-color: #01060a;
+}
 
 /*--------------------------------------------------------------
 # Navigation Menu
